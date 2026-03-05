@@ -19,19 +19,26 @@ export default function Hero() {
         className="absolute inset-0 w-full h-full"
       >
         <img
-          src="/images/mountain-landscape.jpg"
-          alt="Mountain landscape"
+          src="https://cdn.poehali.dev/projects/a3c97910-c502-4e3e-a231-a7c050af0e58/files/b1c0550b-c7b5-4197-9459-acc7f6278b82.jpg"
+          alt="Tattoo studio"
           className="w-full h-full object-cover"
         />
+        <div className="absolute inset-0 bg-black/40" />
       </motion.div>
 
       <div className="relative z-10 text-center text-white">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6">
-          ОТКРОЙ
+        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 uppercase">
+          Твоя история<br />на коже
         </h1>
         <p className="text-lg md:text-xl max-w-2xl mx-auto px-6 opacity-90">
-          Исследуй границы дизайна с иммерсивным параллакс-эффектом
+          Индивидуальные тату-работы. Каждый эскиз создаётся с нуля — только для тебя.
         </p>
+        <a
+          href="#contact"
+          className="inline-block mt-8 border border-white text-white px-8 py-3 uppercase text-sm tracking-widest hover:bg-white hover:text-black transition-all duration-300"
+        >
+          Записаться
+        </a>
       </div>
     </div>
   );
